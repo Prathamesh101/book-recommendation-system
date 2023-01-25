@@ -21,7 +21,7 @@
     <!-- navbar -->
     <nav class = "navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
         <div class = "container">
-            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "{{ url_for('index') }}">
                 
                 <span class = "text-uppercase fw-lighter ms-2">Book Recommendation System</span>
             </a>
@@ -161,7 +161,7 @@
                 </div>
             </div>
             <div class="chatbox__button">
-                <button><img src="{{ url_for('static', filename='images/icons8-topic-100.png') }}" style="size: ;"/></button>
+                <button><img src="{{ url_for('static', filename='images/icons8-topic-100.png') }}" /></button>
             </div>
         </div>
     </div>
@@ -170,7 +170,7 @@
             <div class = "row text-white g-4">
                 <div class = "col-md-6 col-lg-3">
                     <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">Attire</a>
-                    <p class = "text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+                    <p class = "text-white text-muted mt-3">XYZ</p>
                 </div>
 
                 <div class = "col-md-6 col-lg-3">
